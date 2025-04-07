@@ -1,0 +1,8 @@
+Datasets/\n.vscode/\nvenv/\n__pycache__/\n*.pyc\n.DS_Store
+__pycache__/
+*.pyc
+
+__init__.py
+venv
+training.csv
+.vscode/
