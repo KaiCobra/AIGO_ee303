@@ -3,6 +3,4 @@ __pycache__/
 *.pyc
 
 __init__.py
-venv
 training.csv
-.vscode/
