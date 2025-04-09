@@ -33,7 +33,7 @@ def main():
         print(f"Epoch [{epoch+1}/{num_epochs}], Loss: {total_loss/len(train_loader):.4f}")
 
     # 保存模型
-    torch.save(model.state_dict(), "Checkpoints/basic_model.pth")
+        torch.save(model.state_dict(), f"Checkpoints/epoch_{epoch}.pth")
 
 if __name__ == "__main__":
     main()
